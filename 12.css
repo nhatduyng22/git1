@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.container{
+	width: 1024px;
+	height: 1500px;
+	background: #33CC99;
+	margin:0 auto;
+	position: relative;
+}
+.container .header{
+	width: 90%;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 5%;
+	position: relative;
+}
+.container .header .logo{
+	width: 20%;
+	height: 80px;
+	background: blue;
+	float: left;
+}
+.container .header .logo img{
+	width: 100%;
+	height: 100%
+}
+.container .header ul{
+	width: 65%;
+	height: 80px;
+	background: blue;
+	float: left;
+	position: absolute;
+	right: 0;
+}
+.container .header ul li{
+	float: left;
+	display: block;
+	width: auto;
+	height:100%;
+	line-height: 90px; 
+	font-size: 17px;
+	margin-left: 15px;
+}
+.container .header ul li a{
+	text-decoration: none;
+	color: white;
+}
+.container .header ul li a:hover{
+	color: red;
+}
+.container .slideshow{
+	width: 90%;
+	height: 500px;
+	background: pink;
+	position: absolute;
+	left: 5%;
+	position: relative;
+}
+.container .slideshow img{
+	width: 100%;
+	height: 100%;
+}
+.container .slideshow .box{
+	width: 45%;
+	height: 300px;
+	background: rgba(0, 153, 255,0.5);
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.container .slideshow .box h3{
+	width: 80%;
+	height: 50px;
+	color: yellow;
+	font-size: 20px;
+	line-height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.container .slideshow .box .line{
+	width: 90%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+.container .slideshow .box .line1{
+	width: 20%;
+	height: 5px;
+	background: yellow;
+	position: absolute;
+	top: 47px;
+	left: 10px;
+}
+.container .slideshow .box p{
+	width: 80%;
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	/*background:gray;*/
+}
+.container .slideshow .box a{
+	width: 130px;
+	height: 40px;
+	background: yellow;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 200px;
+	left: 10px;
+}
+.container .slideshow ul li .next{
+	background-image: url('https://cms.luatvietnam.vn/uploaded/5/6170_xay_dung.jpg');
+}
