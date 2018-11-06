@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	height:1600px;
+}
+/*css phần 1*/
+/*css phần 2*/
+/*css phần 3*/
+/*css phần 4*/
+/*css phần 5*/
+/*css phần 6*/
+.container .weddingtips{
+	width: 100%;
+	height: 490px;
+	/*background: pink;*/
+	position: relative;
+}
+.container .weddingtips h2{
+	position: absolute;
+	font-size: 35px;
+	color: black;
+	left: 35%;
+	top: 10px;
+}
+.container .weddingtips p{
+	position: absolute;
+	color: gray;
+	font-size: 20px;
+	left: 32%;
+	top: 55px;
+}
+.container .weddingtips .photo {
+	float: left;
+	margin-top: 120px;
+	margin-left: 15px;
+	width: 362px;
+	height: 400px;
+	/*background: gray;*/
+	position: relative;
+}
+.container .weddingtips .photo img{
+	width: 100%;
+	height: 262px;
+}
+.container .weddingtips .photo h4{
+	font-size: 25px;
+	text-align: center;
+}
+.container .weddingtips .photo a{
+	text-decoration: none;
+	color: #343a40;
+}
+.container .weddingtips .photo a:hover{
+	color: #e83e8c;
+}
+.container .weddingtips .photo .write p{
+	position: absolute;
+	color: #e83e8c;
+	width: 300px;
+	height: 50px;
+	/*background: green;*/
+	line-height: 50px;
+	top: 325px;
+	left: 20px;
+	text-align: center;
+}
+/*css phần 7*/
+
